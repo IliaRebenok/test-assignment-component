@@ -1,0 +1,72 @@
+.App {
+    font-family: Roboto, Helvetica, sans-serif;
+    width: 100vw;   
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(39, 37, 52);
+    color: azure;
+    padding: 2rem 4rem;
+}
+
+button {
+    color: azure;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 0.2rem solid rgb(108, 102, 144);
+    background-color: rgb(108, 102, 144);
+    outline: none;
+}
+
+button:hover,
+button:focus {
+    border: 0.2rem solid rgb(83, 144, 88);
+    box-shadow: 0 0 0.3rem 0.3rem rgba(83, 144, 88, 0.3);
+}
+
+button:active {
+    transform: translateY(0.1rem);
+}
+
+input {
+    width: 50%;
+    padding-left: 0.5rem;
+    min-width: 20rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 0.2rem solid rgb(206, 202, 228);
+    background-color: rgb(206, 202, 228);
+    outline: none;
+    color: rgb(108, 102, 144);
+}
+
+input:hover,
+input:focus {
+    border: 0.2rem solid rgb(108, 102, 144);
+}
+
+.contentBox{
+    height: 15rem;
+    margin-bottom: 1rem;
+    width: 80vw;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgb(131, 124, 173);
+}
+
+.message {
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 0.7rem;
+    color: rgb(131, 124, 173);
+    background-color: rgb(206, 202, 228);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
